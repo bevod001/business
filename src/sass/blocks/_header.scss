@@ -1,0 +1,35 @@
+.header {
+    min-height: 86px;
+    background-color: rgb(236, 236, 236);
+    padding: 20px 0 20px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__text {
+        margin-left: 11px;
+    }
+
+    &__name {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+
+    &__descr {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    &__number {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,68 @@
+.solve {
+  background: url(../img/solve/background.png) center center/cover no-repeat;
+  min-height: 890px;
+  padding: 79px 0 61px 0;
+}
+.solve__title {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+}
+.solve__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 1075px;
+  height: 64px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.solve__item {
+  display: flex;
+  border-left: 1px solid white;
+  padding: 0 45px;
+  align-items: center;
+  cursor: pointer;
+}
+.solve__item:nth-child(1) {
+  border-left: none;
+}
+.solve__item:hover {
+  color: #00c2f0;
+}
+.solve__background {
+  position: relative;
+  background: url(../../img/solve/macbook.png) center center/cover no-repeat;
+  height: 670px;
+  margin-top: 36px;
+}
+.solve__slider {
+  position: absolute;
+  width: 834px;
+  top: 6.6%;
+  left: 142px;
+  z-index: 1;
+}
+.solve .carousel-control-next {
+  right: -190px;
+  z-index: 4;
+}
+.solve .carousel-control-prev {
+  left: -190px;
+  z-index: 4;
+}
+.solve .carousel-indicators {
+  bottom: -8px;
+}
+.solve .carousel-indicators button {
+  background-color: black;
+}

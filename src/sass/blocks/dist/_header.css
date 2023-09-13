@@ -1,0 +1,29 @@
+.header {
+  min-height: 86px;
+  background-color: #ececec;
+  padding: 20px 0 20px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__items {
+  display: flex;
+}
+.header__text {
+  margin-left: 11px;
+}
+.header__name {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #242424;
+}
+.header__descr {
+  font-size: 12px;
+  font-weight: 300;
+}
+.header__number {
+  font-size: 12px;
+  font-weight: 300;
+}

@@ -1,0 +1,113 @@
+.promo {
+    min-height: 603px;
+
+    .carousel-indicators {
+        button {
+            height: 15px;
+            width: 15px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 100%;
+        }
+
+    }
+
+    #carouselExampleIndicators {
+        position: relative;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        top: 89.5%;
+        right: 36%;
+        z-index: 3;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        top: 89.5%;
+        left: 36%;
+        z-index: 3;
+    }
+
+    &__about {
+        position: relative;
+
+    }
+
+    &__item {
+        width: 1000px;
+        height: 700px;
+    }
+
+    &__slider {
+        position: absolute;
+        top: -27px;
+
+    }
+
+    &__wrapper {
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-max {
+            position: relative;
+        }
+
+        &-min {
+            position: absolute;
+            width: 1140px;
+            top: 39px;
+            right: 50%;
+            transform: translateX(50%);
+
+
+        }
+    }
+
+    &__nav {
+        ul {
+            display: flex;
+
+        }
+
+        li {
+            margin-right: 50px;
+            list-style-type: none;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    &__title {
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: 900;
+        color: #ffffff;
+        margin-top: 133px;
+    }
+
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 27px;
+
+        span {
+            font-weight: 300;
+
+        }
+    }
+}

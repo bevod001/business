@@ -1,0 +1,94 @@
+.skills {
+  min-height: 900px;
+  padding: 79px 0 81px 0;
+}
+.skills__items {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__items-plus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+.skills__item {
+  position: relative;
+  width: 360px;
+  height: 255px;
+  border: 1px solid #ececec;
+  text-align: center;
+  padding: 0 57px;
+}
+.skills__question {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2;
+}
+.skills__question img {
+  width: 115px;
+  height: 115px;
+  color: #2675c9;
+}
+.skills__descr {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #393939;
+}
+.skills__descr-plus {
+  font-size: 18px;
+  line-height: 26px;
+  color: #393939;
+  font-weight: 700;
+}
+.skills__tringle {
+  display: block;
+  position: relative;
+  width: 169px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.skills__span-1 {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  background-color: #ada9a9;
+  top: 20px;
+  transform: rotate(25deg);
+}
+.skills__span-2 {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  background-color: #ada9a9;
+  top: 20px;
+  left: 45.6%;
+  transform: rotate(335deg);
+}
+.skills__span-3 {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  background-color: #ada9a9;
+  top: 45px;
+  transform: rotate(25deg);
+}
+.skills__span-4 {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  background-color: #ada9a9;
+  top: 45px;
+  left: 45.6%;
+  transform: rotate(335deg);
+}
+.skills__title {
+  font-size: 48.1px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #393939;
+  text-align: center;
+  margin-top: 33px;
+}
