@@ -1,0 +1,79 @@
+.footer {
+  min-height: 500px;
+  padding: 50px 0 40px 0;
+  background-color: #0082a1;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__company {
+  width: 400px;
+}
+.footer__company-title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer__company-logo {
+  margin-top: 20px;
+}
+.footer__company-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.footer__module-title {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer__module-branch {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 3px;
+}
+.footer__industry-title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer__industry-branch {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 3px;
+  color: #ffffff;
+}
+.footer__aboutUs-title {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer__aboutUs-branch {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 3px;
+}
+.footer__divider {
+  width: 1171px;
+  height: 1px;
+  background-color: rgba(255, 250, 250, 0.6);
+  margin-top: 44px;
+}
+.footer__license {
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 44px;
+}

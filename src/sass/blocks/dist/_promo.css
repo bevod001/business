@@ -1,6 +1,9 @@
 .promo {
   min-height: 603px;
 }
+.promo .carousel-indicators {
+  margin-bottom: 9px;
+}
 .promo .carousel-indicators button {
   height: 15px;
   width: 15px;
@@ -10,18 +13,6 @@
 }
 .promo #carouselExampleIndicators {
   position: relative;
-}
-.promo .carousel-control-next {
-  position: absolute;
-  top: 89.5%;
-  right: 36%;
-  z-index: 3;
-}
-.promo .carousel-control-prev {
-  position: absolute;
-  top: 89.5%;
-  left: 36%;
-  z-index: 3;
 }
 .promo__about {
   position: relative;

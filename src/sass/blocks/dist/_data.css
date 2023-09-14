@@ -1,7 +1,6 @@
 .data {
   min-height: 580px;
   position: relative;
-  padding: 0 0 220px 0;
 }
 .data__wrapper-background {
   display: grid;
