@@ -1,0 +1,38 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+// * {
+//     border: red 1px solid;
+// }
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.corousel-item .active {
+    img {
+        width: 1300px;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/skills';
+@import 'blocks/solve';
+@import 'blocks/advantage';
+@import 'blocks/data';
+@import 'blocks/contact';
+@import 'blocks/footer';
+@import 'blocks/media';

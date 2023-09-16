@@ -1,0 +1,134 @@
+@media (max-width: 1400px) {
+  .promo__wrapper .carousel-control-prev,
+.promo__wrapper .carousel-control-next {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .promo__wrapper-header {
+    justify-content: space-around;
+  }
+  .promo__wrapper-min {
+    width: 940px;
+  }
+}
+@media (max-width: 991px) {
+  .promo__wrapper-min {
+    width: 715px;
+  }
+  .promo__nav li {
+    margin-right: 30px;
+  }
+
+  .skills__items {
+    justify-content: space-around;
+  }
+  .skills__item {
+    display: grid;
+    padding: 0 28px;
+  }
+  .skills__question img {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    display: none;
+  }
+
+  .promo__nav {
+    display: none;
+  }
+  .promo__wrapper-min {
+    width: 555px;
+  }
+  .promo__wrapper-header {
+    justify-content: flex-end;
+  }
+  .promo__title {
+    margin-top: 60px;
+  }
+
+  .skills__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .skills__items-plus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .skills__item {
+    width: 272px;
+    padding: 0 0;
+  }
+  .skills__question {
+    right: 0;
+  }
+}
+@media (max-width: 575px) {
+  .promo__wrapper-min {
+    width: 458px;
+  }
+
+  .skills__items {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .skills__items-plus {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 472px) {
+  .header__name {
+    font-size: 11px;
+  }
+  .header__descr {
+    font-size: 10px;
+  }
+  .header__number {
+    font-size: 10px;
+  }
+
+  .promo__wrapper-header {
+    justify-content: space-around;
+  }
+  .promo__title {
+    font-size: 35px;
+    margin-top: 92px;
+  }
+  .promo__subtitle {
+    font-size: 21px;
+    margin-top: 45px;
+  }
+}
+@media (max-width: 446px) {
+  .header__wrapper {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+  }
+  .header__items {
+    padding-left: 0;
+    width: 200px;
+  }
+
+  .promo__wrapper-min {
+    width: 320px;
+  }
+  .promo__title {
+    margin-top: 54px;
+  }
+
+  .skills__descr {
+    font-size: 16px;
+  }
+  .skills__descr-plus {
+    font-size: 16px;
+  }
+}

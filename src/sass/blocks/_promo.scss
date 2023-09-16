@@ -2,6 +2,7 @@
     min-height: 603px;
 
     .carousel-indicators {
+        margin-bottom: 9px;
         button {
             height: 15px;
             width: 15px;
@@ -16,19 +17,19 @@
         position: relative;
     }
 
-    .carousel-control-next {
-        position: absolute;
-        top: 89.5%;
-        right: 36%;
-        z-index: 3;
-    }
+    // .carousel-control-next {
+    //     position: absolute;
+    //     top: 89.5%;
+    //     right: 36%;
+    //     z-index: 3;
+    // }
 
-    .carousel-control-prev {
-        position: absolute;
-        top: 89.5%;
-        left: 36%;
-        z-index: 3;
-    }
+    // .carousel-control-prev {
+    //     position: absolute;
+    //     top: 89.5%;
+    //     left: 36%;
+    //     z-index: 3;
+    // }
 
     &__about {
         position: relative;
